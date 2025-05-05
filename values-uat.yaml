@@ -1,0 +1,9 @@
+nginx:
+  image: nginx:1.21
+  replicas: 2
+  port: 80
+
+httpd:
+  image: httpd:2.4
+  replicas: 2
+  port: 80
